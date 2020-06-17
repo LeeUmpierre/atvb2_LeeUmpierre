@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <!--App Locadora de Filmes-->
+    <!--Parei em 34:08-->
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>    
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/angular/angular.min.js"></script>
+    <script src="node_modules/angular-route/angular-route.min.js"></script>
+    <script src="node_modules/ngstorage/ngStorage.min.js"></script>
+
+</head>
+<body ng-app="appFilmes">
+
+    <div ng-view></div>
+
+
+
+
+    <!--App-->
+    <script src="app.js"></script>
+    <!--Service-->
+    <script src="app/service/categoria.service.js"></script>
+    <script src="app/service/produto.service.js"></script>
+    <!--Controller-->
+    <script src="app/controller/site.controller.js"></script>
+    <script src="app/controller/categoria.controller.js"></script>
+    <script src="app/controller/produto.controller.js"></script>
+</body>
+</html>

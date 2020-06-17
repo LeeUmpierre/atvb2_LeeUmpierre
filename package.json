@@ -1,0 +1,27 @@
+{
+  "name": "atvb2_LeeUmpierre",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeeUmpierre/atvb2_LeeUmpierre.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeeUmpierre/atvb2_LeeUmpierre/issues"
+  },
+  "homepage": "https://github.com/LeeUmpierre/atvb2_LeeUmpierre#readme",
+  "dependencies": {
+    "angular": "^1.8.0",
+    "angular-route": "^1.8.0",
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "ngstorage": "^0.3.11"
+  }
+}
