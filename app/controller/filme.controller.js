@@ -33,7 +33,7 @@
             $scope.filme = {
                 nome: '',
                 foto: '',
-                descr: '',
+                sinopse: '',
                 preco: '',
             }
 

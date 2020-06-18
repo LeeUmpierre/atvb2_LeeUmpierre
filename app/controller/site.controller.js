@@ -1,10 +1,10 @@
 (function(app){
-    app.controller('SiteController',function($scope, CategoriaService,FilmesService){
+    app.controller('SiteController',function($scope, CategoriaService,FilmeService){
         CategoriaService.listar().then(function(result){
             $scope.filmes = [];
             $scope.categorias = result.data;
 
-            FilmesService.listar().then(function(result2){
+            FilmeService.listar().then(function(result2){
                 $scope.filmes = result2.data;
             });
         });

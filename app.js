@@ -10,7 +10,7 @@ appFilmes.config(function($routeProvider){
             templateUrl: 'app/template/admin/categoria.view.html',
             controller: 'CategoriaCotroller'
         })
-        .when('/admin/produtos',{
+        .when('/admin/filme',{
             templateUrl: 'app/template/admin/filme.view.html',
             controller: 'FilmeCotroller'
         })

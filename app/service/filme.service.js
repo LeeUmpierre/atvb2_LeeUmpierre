@@ -2,7 +2,7 @@
 (function (app) {
     'use strict';
 
-    app.service('FilmesService', function ($q, $localStorage) {
+    app.service('FilmeService', function ($q, $localStorage) {
         const deferred = $q.defer();
 
         function loadJSON() {
