@@ -12,7 +12,7 @@
         }
 
         function save(filme) {
-            var dados = $localStorage.categorias || [];
+            var dados = $localStorage.filmes || [];
 
             if (!filme.id) {
                 //Pega o ultimo registro
@@ -25,7 +25,7 @@
                 dados.push(filme);
 
                 //Devolve o vetor para o localstorage
-                $localStorage.categorias = dados;
+                $localStorage.filmes = dados;
             }
 
             deferred.resolve(filme);
@@ -34,7 +34,7 @@
         }
 
         function remove( filme ) {
-            var dados = $localStorage.categorias;
+            var dados = $localStorage.filmes;
 
             //Procura o index do filme que está vindo por parametro
             var index = dados.indexOf( filme );
@@ -43,7 +43,7 @@
             dados.splice(index, 1)
 
             //Atualioza local storage
-            $localStorage.categorias = dados;
+            $localStorage.filmes = dados;
 
             deferred.resolve({data: dados});
             return deferred.promise;
